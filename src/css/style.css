@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Bungee+Shade&family=Bungee+Spice&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+        
+}
+
+:root {
+    --background-color-light: radial-gradient(circle at 0.8% 3.1%, rgb(255, 188, 224) 0%, rgb(170, 165, 255) 46%, rgb(165, 255, 205) 100.2%);
+    --text-color-light: #ffffff;
+    --background-color-dark: black;
+    --text-color-dark: #ffffff;
+  }
+
+
+body{
+    background:var(--background-color-light) ;
+}
+body.dark-mode{
+    background: var(--background-color-dark);
+    color:var(--text-color-light); 
+}
+.darkmode-card{
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    color: #ffffff;
+}
+
+.card{
+    height: 30rem;
+    background: radial-gradient(circle at 10% 20%, rgb(186, 190, 245) 0%, rgb(192, 192, 245) 33.1%, rgb(218, 203, 246) 90%);
+}
+
+.navbar{
+    background: transparent;
+}
+image{
+    margin: 10px;
+}
+h5{
+   font-size: 1.5rem; 
+}
+
+button{
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 20%;
+    border: none;
+}
+button:hover{
+    color: white;
+    background: black;
+}

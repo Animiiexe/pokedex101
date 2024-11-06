@@ -1,0 +1,16 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "ChatGPT said: ChatGPT      Unlock the world of Pokémon with our interactive Pokédex web app, featuring detailed stats, abilities, and a vibrant community of trainers!      Explore every Pokémon in our user-friendly Pokédex web app, where you can learn, strategize, and connect with fellow fans",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
