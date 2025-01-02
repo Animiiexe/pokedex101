@@ -1,16 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Bungee+Shade&family=Bungee+Spice&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 *{
-    
     font-family: "Poppins", sans-serif;
     font-weight: 700;
-    font-style: normal;
-        
+    font-style: normal;     
 }
 
 :root {
     --background-color-light: radial-gradient(circle at 0.8% 3.1%, rgb(255, 188, 224) 0%, rgb(170, 165, 255) 46%, rgb(165, 255, 205) 100.2%);
-    --text-color-light: #ffffff;
+    --text-color-light: #181717;
     --background-color-dark: black;
     --text-color-dark: #ffffff;
   }
@@ -21,11 +19,10 @@ body{
 }
 body.dark-mode{
     background: var(--background-color-dark);
-    color:var(--text-color-light); 
+    color:var(--text-color-dark); 
 }
 .darkmode-card{
-    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
-    color: #ffffff;
+    background: var(--background-color-dark);
 }
 
 .card{
